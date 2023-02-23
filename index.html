@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="cal_container">
+      <div class="menu_bar">
+        <p
+          style="
+            text-align: left;
+            margin-left: 25px;
+            margin-top: 10px;
+            color: rgba(255, 255, 255, 0.8);
+            font-style: italic;
+            font-size: 22px;
+          "
+        >
+          Calculator
+        </p>
+      </div>
+      <br />
+
+      <input type="text" id="display" readonly class="cal_display" value="0"/>
+
+      <br />
+      <button id="ac" class="cal_buttons">AC</button>
+      <button id="del" class="cal_buttons">Del</button>
+      <button id="-" class="cal_buttons">-</button>
+      <br />
+      <button id="7" class="cal_buttons">7</button>
+      <button id="8" class="cal_buttons">8</button>
+      <button id="9" class="cal_buttons">9</button>
+      <button id="/" class="cal_buttons">/</button>
+      <br />
+      <button id="4" class="cal_buttons">4</button>
+      <button id="5" class="cal_buttons">5</button>
+      <button id="6" class="cal_buttons">6</button>
+      <button id="*" class="cal_buttons">*</button>
+      <br />
+      <button id="1" class="cal_buttons">1</button>
+      <button id="2" class="cal_buttons">2</button>
+      <button id="3" class="cal_buttons">3</button>
+      <button id="+" class="cal_buttons">+</button>
+      <br />
+      <button id="00" class="cal_buttons">00</button>
+      <button id="0" class="cal_buttons">0</button>
+      <button id="." class="cal_buttons">.</button>
+      <button id="=" class="cal_buttons">=</button>
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>

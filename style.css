@@ -1,0 +1,79 @@
+.cal_container {
+  margin: auto;
+  text-align: center;
+  display: flexbox;
+  justify-content: space-evenly;
+  width: 350px;
+  height: auto;
+  background: linear-gradient(
+    109.6deg,
+    rgb(0, 37, 84) 11.2%,
+    rgba(0, 37, 84, 0.32) 100.2%
+  );
+
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+    rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+    rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  padding-bottom: 40px;
+}
+.menu_bar {
+  display: flex;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.25),
+    rgba(255, 255, 255, 0)
+  );
+  height: 40px;
+  flex-flow: column wrap;
+  align-content: space-between;
+}
+.menu_bar button {
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: none;
+}
+.cal_buttons,
+.menu_bar button {
+  border: none;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  backdrop-filter: blur(1000px);
+}
+.cal_buttons {
+  background-color: rgba(255, 255, 255, 0.1);
+  height: 60px;
+  margin: 2px;
+  border-radius: 5px;
+  width: 20%;
+}
+.cal_buttons:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+.menu_bar button:hover {
+  background-color: rgba(255, 0, 0, 0.75);
+}
+.cal_display {
+  width: 85%;
+  height: 60px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(30px);
+  box-shadow: 0 20px 10px -20px #b3d9f3 inset, 0 -20px 10px -20px #b3d9f3 inset,
+    20px 0 10px -20px #b3d9f3 inset;
+  font-family: simplecode;
+  font-size: 35px;
+  text-align: right;
+  pointer-events:none
+}
+
+#ac.cal_buttons{
+  width: 150px;
+  background-color: rgba(255, 255, 255, 0.15);
+}
